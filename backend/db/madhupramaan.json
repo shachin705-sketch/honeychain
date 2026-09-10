@@ -1,0 +1,1992 @@
+{
+  "users": [
+    {
+      "name": "Rajesh Kumar",
+      "email": "rajesh@demo.com",
+      "password_hash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "beekeeper",
+      "village": "Ludhiana",
+      "cluster": "Punjab",
+      "phone": "9876543210",
+      "favorites": "[]",
+      "points": 0,
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 1
+    },
+    {
+      "name": "Lakshmi Nair",
+      "email": "lakshmi@demo.com",
+      "password_hash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "beekeeper",
+      "village": "Wayanad",
+      "cluster": "Kerala",
+      "phone": "9876543211",
+      "favorites": "[]",
+      "points": 0,
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 2
+    },
+    {
+      "name": "Arjun Singh",
+      "email": "arjun@demo.com",
+      "password_hash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "beekeeper",
+      "village": "Lucknow",
+      "cluster": "Uttar Pradesh",
+      "phone": "9876543212",
+      "favorites": "[]",
+      "points": 0,
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 3
+    },
+    {
+      "name": "Priya Sharma",
+      "email": "priya@demo.com",
+      "password_hash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "admin",
+      "village": "Karnal",
+      "cluster": "Haryana",
+      "phone": "9876543213",
+      "favorites": "[]",
+      "points": 0,
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 4
+    },
+    {
+      "name": "Dr. Meena Verma",
+      "email": "meena@demo.com",
+      "password_hash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "kvic",
+      "village": "New Delhi",
+      "cluster": "Delhi",
+      "phone": "9876543214",
+      "favorites": "[]",
+      "points": 0,
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 5
+    },
+    {
+      "name": "Anita Desai",
+      "email": "anita@demo.com",
+      "password_hash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "consumer",
+      "village": "",
+      "cluster": "",
+      "phone": "9876543220",
+      "favorites": "[1]",
+      "points": 20,
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 6
+    },
+    {
+      "name": "shachin",
+      "email": "shachin705@gmail.com",
+      "password_hash": "fc1f09ab08ebdd072ea6da53a5691abcc18c9163b1be1f0921a5adb50e3f5077",
+      "role": "beekeeper",
+      "village": "coimbatore",
+      "cluster": "tamilnadu",
+      "phone": "6382906526",
+      "id": 7
+    },
+    {
+      "name": "shachin ",
+      "email": "shacchin705@gmail.com",
+      "password_hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "role": "beekeeper",
+      "village": "walayar",
+      "cluster": "kerala",
+      "phone": "6382906526",
+      "id": 8
+    },
+    {
+      "name": "shachin a",
+      "email": "nihcahs@gmail.com",
+      "password_hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "role": "beekeeper",
+      "village": "walayar",
+      "cluster": "kerala",
+      "phone": "6382906525",
+      "id": 9
+    }
+  ],
+  "batches": [
+    {
+      "beekeeper_id": 8,
+      "location_lat": 30.9,
+      "location_lng": 75.8,
+      "location_region": "Kerala",
+      "harvest_date": "2026-09-09",
+      "floral_source": "wildflower",
+      "quantity_kg": 26,
+      "status": "pending",
+      "created_at": "2026-09-09T13:24:37.170Z",
+      "id": 8
+    },
+    {
+      "beekeeper_id": 7,
+      "location_lat": 30.9,
+      "location_lng": 75.8,
+      "location_region": "Kerala",
+      "harvest_date": "2026-09-09",
+      "floral_source": "mustard",
+      "quantity_kg": 25,
+      "status": "pending",
+      "created_at": "2026-09-09T12:29:47.878Z",
+      "id": 7
+    },
+    {
+      "beekeeper_id": 1,
+      "location_lat": 30.901,
+      "location_lng": 75.8573,
+      "location_region": "Punjab",
+      "harvest_date": "2026-03-15",
+      "floral_source": "mustard",
+      "quantity_kg": 12.5,
+      "status": "verified",
+      "flag_reason": "",
+      "spectral_data": "{\"moisture\":17.2,\"sugar_ratio\":82.5,\"hmf_level\":12.3}",
+      "qr_generated": 1,
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 1
+    },
+    {
+      "beekeeper_id": 1,
+      "location_lat": 30.901,
+      "location_lng": 75.8573,
+      "location_region": "Punjab",
+      "harvest_date": "2026-07-10",
+      "floral_source": "eucalyptus",
+      "quantity_kg": 8.3,
+      "status": "verified",
+      "flag_reason": "",
+      "spectral_data": "{\"moisture\":15.8,\"sugar_ratio\":85.1,\"hmf_level\":9.7}",
+      "qr_generated": 1,
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 2
+    },
+    {
+      "beekeeper_id": 2,
+      "location_lat": 11.6854,
+      "location_lng": 76.132,
+      "location_region": "Kerala",
+      "harvest_date": "2026-12-05",
+      "floral_source": "wildflower",
+      "quantity_kg": 15,
+      "status": "verified",
+      "flag_reason": "",
+      "spectral_data": "{\"moisture\":18.1,\"sugar_ratio\":79.8,\"hmf_level\":15.2}",
+      "qr_generated": 1,
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 3
+    },
+    {
+      "beekeeper_id": 3,
+      "location_lat": 26.8467,
+      "location_lng": 80.9462,
+      "location_region": "Uttar Pradesh",
+      "harvest_date": "2026-08-20",
+      "floral_source": "mustard",
+      "quantity_kg": 10,
+      "status": "flagged",
+      "flag_reason": "MISMATCH - Possible Mislabeling: mustard not in bloom for Uttar Pradesh in August",
+      "spectral_data": "{\"moisture\":19.5,\"sugar_ratio\":78,\"hmf_level\":18}",
+      "qr_generated": 0,
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 4
+    },
+    {
+      "beekeeper_id": 3,
+      "location_lat": 26.8467,
+      "location_lng": 80.9462,
+      "location_region": "Uttar Pradesh",
+      "harvest_date": "2026-06-12",
+      "floral_source": "litchi",
+      "quantity_kg": 7.5,
+      "status": "flagged",
+      "flag_reason": "ADULTERATION SUSPECTED: moisture 22.0% exceeds 20% threshold, HMF 45.0mg/kg exceeds 40mg/kg threshold",
+      "spectral_data": "{\"moisture\":22,\"sugar_ratio\":71.5,\"hmf_level\":45}",
+      "qr_generated": 0,
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 5
+    },
+    {
+      "beekeeper_id": 1,
+      "location_lat": 30.901,
+      "location_lng": 75.8573,
+      "location_region": "Punjab",
+      "harvest_date": "2026-10-18",
+      "floral_source": "wildflower",
+      "quantity_kg": 9.2,
+      "status": "verified",
+      "flag_reason": "",
+      "spectral_data": "{\"moisture\":19,\"sugar_ratio\":80.2,\"hmf_level\":16.5}",
+      "qr_generated": 1,
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 6
+    },
+    {
+      "beekeeper_id": 9,
+      "location_lat": 30.9,
+      "location_lng": 75.8,
+      "location_region": "Punjab",
+      "harvest_date": "2026-09-09",
+      "floral_source": "wildflower",
+      "quantity_kg": 25,
+      "status": "pending",
+      "created_at": "2026-09-09T13:34:59.088Z",
+      "id": 9
+    }
+  ],
+  "ledger_entries": [
+    {
+      "batch_id": 1,
+      "step": "harvest",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "data": "{\"batchId\":1,\"step\":\"harvest\",\"beekeeperName\":\"Rajesh Kumar\",\"village\":\"Ludhiana\",\"hiveId\":\"HIVE-PB-042\",\"gps\":{\"lat\":30.901,\"lng\":75.8573},\"harvestDate\":\"2026-03-15\",\"floralSource\":\"mustard\",\"quantityKg\":12.5,\"photoPath\":\"/uploads/harvest-batch1.jpg\"}",
+      "current_hash": "83b020d71e733b07e4624d85ea9e0cc466b3b3da00fe6e90a44c4823df65c2ff",
+      "timestamp": "2026-08-31T12:21:42.664Z",
+      "id": 1
+    },
+    {
+      "batch_id": 1,
+      "step": "collection",
+      "prev_hash": "83b020d71e733b07e4624d85ea9e0cc466b3b3da00fe6e90a44c4823df65c2ff",
+      "data": "{\"batchId\":1,\"step\":\"collection\",\"centerName\":\"Karnal Collection Center\",\"centerId\":\"CC-HR-001\",\"dateReceived\":\"2026-03-16\",\"quantityReceived\":12.5,\"conditionNotes\":\"Sealed drums, temperature controlled, no damage\"}",
+      "current_hash": "7fb43aca60319f29bae4a2d2e46cc82217ccc24c21ebcda634b6d93479552f13",
+      "timestamp": "2026-09-01T12:21:42.665Z",
+      "id": 2
+    },
+    {
+      "batch_id": 1,
+      "step": "testing",
+      "prev_hash": "7fb43aca60319f29bae4a2d2e46cc82217ccc24c21ebcda634b6d93479552f13",
+      "data": "{\"batchId\":1,\"step\":\"testing\",\"moisture\":17.2,\"sugarRatio\":82.5,\"hmfLevel\":12.3,\"testedByStaffId\":\"LAB-STAFF-007\",\"testDate\":\"2026-03-17\",\"labName\":\"KVIC Certified Lab - Karnal\"}",
+      "current_hash": "e4efaaf42158ea574c97340de75fa30e13dc2a5122838573d7db20f21a7a401e",
+      "timestamp": "2026-09-02T12:21:42.665Z",
+      "id": 3
+    },
+    {
+      "batch_id": 1,
+      "step": "ai_verification",
+      "prev_hash": "e4efaaf42158ea574c97340de75fa30e13dc2a5122838573d7db20f21a7a401e",
+      "data": "{\"batchId\":1,\"step\":\"ai_verification\",\"riskScore\":0,\"riskBand\":\"VERIFIED_AUTHENTIC\",\"floralMatch\":true,\"timingMatch\":true,\"ndviSupport\":true,\"nirRange\":true,\"explanation\":\"All cross-verification checks passed for mustard honey from Punjab\"}",
+      "current_hash": "2b5f27c0bdd672166a44063c70db87d4daf6fa4704bba502aef261954ad24f08",
+      "timestamp": "2026-09-03T12:21:42.666Z",
+      "id": 4
+    },
+    {
+      "batch_id": 1,
+      "step": "processing",
+      "prev_hash": "2b5f27c0bdd672166a44063c70db87d4daf6fa4704bba502aef261954ad24f08",
+      "data": "{\"batchId\":1,\"step\":\"processing\",\"method\":\"raw\",\"processDate\":\"2026-03-18\",\"facilityId\":\"PROC-PB-001\",\"facilityName\":\"Punjab Honey Processing Unit\",\"batchSplitInfo\":\"Single batch, no split\"}",
+      "current_hash": "250699d571cb6f95c34b5a48ce46291cb3dad04a17e168e7781cbeb6be5e54cc",
+      "timestamp": "2026-09-04T12:21:42.666Z",
+      "id": 5
+    },
+    {
+      "batch_id": 1,
+      "step": "packaging",
+      "prev_hash": "250699d571cb6f95c34b5a48ce46291cb3dad04a17e168e7781cbeb6be5e54cc",
+      "data": "{\"batchId\":1,\"step\":\"packaging\",\"packageDate\":\"2026-03-19\",\"jarSize\":\"500g\",\"facility\":\"KVIC Certified Packaging - Ludhiana\",\"nfcSealId\":\"NFC-606FAEF21D9FD8A246D482E3\"}",
+      "current_hash": "eec44565f5d51fc7e99c3e057d57859dc671f971b34293a0542ce1ae0006fd42",
+      "timestamp": "2026-09-05T12:21:42.667Z",
+      "id": 6
+    },
+    {
+      "batch_id": 1,
+      "step": "distribution",
+      "prev_hash": "eec44565f5d51fc7e99c3e057d57859dc671f971b34293a0542ce1ae0006fd42",
+      "data": "{\"batchId\":1,\"step\":\"distribution\",\"distributorName\":\"Northern India Honey Logistics\",\"dispatchDate\":\"2026-03-20\",\"destinationMarket\":\"Chennai, Tamil Nadu\"}",
+      "current_hash": "66ce13a87195edc1b4e01ce3123aa940c900354f7de4f0cf618c938a36ba1505",
+      "timestamp": "2026-09-06T12:21:42.667Z",
+      "id": 7
+    },
+    {
+      "batch_id": 1,
+      "step": "retail",
+      "prev_hash": "66ce13a87195edc1b4e01ce3123aa940c900354f7de4f0cf618c938a36ba1505",
+      "data": "{\"batchId\":1,\"step\":\"retail\",\"outletName\":\"KVIC Emporium - Chennai\",\"dateStocked\":\"2026-03-22\",\"shelfPrice\":750}",
+      "current_hash": "6e558e029d9e20ee2cec530f571da8eddbadb261d806d5d7d134259d9e62d23d",
+      "timestamp": "2026-09-07T12:21:42.667Z",
+      "id": 8
+    },
+    {
+      "batch_id": 1,
+      "step": "consumer_purchase",
+      "prev_hash": "6e558e029d9e20ee2cec530f571da8eddbadb261d806d5d7d134259d9e62d23d",
+      "data": "{\"batchId\":1,\"step\":\"consumer_purchase\",\"orderId\":\"ORD-INITIAL-001\",\"buyerName\":\"Anita Desai\",\"timestamp\":\"2026-09-07T12:21:42.664Z\"}",
+      "current_hash": "a5a2f59f913ebd6d6d7b8dd77e3eda87b6f509474f0a7cf4e111166ab00e9d17",
+      "timestamp": "2026-09-08T12:21:42.668Z",
+      "id": 9
+    },
+    {
+      "batch_id": 2,
+      "step": "harvest",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "data": "{\"batchId\":2,\"step\":\"harvest\",\"beekeeperName\":\"Rajesh Kumar\",\"village\":\"Ludhiana\",\"hiveId\":\"HIVE-PB-018\",\"gps\":{\"lat\":30.901,\"lng\":75.8573},\"harvestDate\":\"2026-07-10\",\"floralSource\":\"eucalyptus\",\"quantityKg\":8.3,\"photoPath\":\"/uploads/harvest-batch2.jpg\"}",
+      "current_hash": "82d5e4703f43c6086bec58bfce76b4808b58655e7bc7a98bc3eadb1f77d68b5a",
+      "timestamp": "2026-08-31T12:21:42.669Z",
+      "id": 10
+    },
+    {
+      "batch_id": 2,
+      "step": "collection",
+      "prev_hash": "82d5e4703f43c6086bec58bfce76b4808b58655e7bc7a98bc3eadb1f77d68b5a",
+      "data": "{\"batchId\":2,\"step\":\"collection\",\"centerName\":\"Karnal Collection Center\",\"centerId\":\"CC-HR-001\",\"dateReceived\":\"2026-07-11\",\"quantityReceived\":8.3,\"conditionNotes\":\"Good condition, minor crystallization\"}",
+      "current_hash": "3ba2591a07269fd5efb4cf749f7d1c13e461b9491f97b52227b8b9f4e2813abd",
+      "timestamp": "2026-09-01T12:21:42.669Z",
+      "id": 11
+    },
+    {
+      "batch_id": 2,
+      "step": "testing",
+      "prev_hash": "3ba2591a07269fd5efb4cf749f7d1c13e461b9491f97b52227b8b9f4e2813abd",
+      "data": "{\"batchId\":2,\"step\":\"testing\",\"moisture\":15.8,\"sugarRatio\":85.1,\"hmfLevel\":9.7,\"testedByStaffId\":\"LAB-STAFF-007\",\"testDate\":\"2026-07-12\",\"labName\":\"KVIC Certified Lab - Karnal\"}",
+      "current_hash": "2ee0daeeb4a06075002158219d1fb15b8df7b46e9c24699053bdc92fbea4cd2c",
+      "timestamp": "2026-09-02T12:21:42.669Z",
+      "id": 12
+    },
+    {
+      "batch_id": 2,
+      "step": "ai_verification",
+      "prev_hash": "2ee0daeeb4a06075002158219d1fb15b8df7b46e9c24699053bdc92fbea4cd2c",
+      "data": "{\"batchId\":2,\"step\":\"ai_verification\",\"riskScore\":0,\"riskBand\":\"VERIFIED_AUTHENTIC\",\"floralMatch\":true,\"timingMatch\":true,\"ndviSupport\":true,\"nirRange\":true,\"explanation\":\"All cross-verification checks passed for eucalyptus honey from Punjab\"}",
+      "current_hash": "4bb910d33fa4a4c50c7b6f3c1bcf72650965b0533954755fb24051dd005ce1c2",
+      "timestamp": "2026-09-03T12:21:42.670Z",
+      "id": 13
+    },
+    {
+      "batch_id": 2,
+      "step": "processing",
+      "prev_hash": "4bb910d33fa4a4c50c7b6f3c1bcf72650965b0533954755fb24051dd005ce1c2",
+      "data": "{\"batchId\":2,\"step\":\"processing\",\"method\":\"filtered\",\"processDate\":\"2026-07-13\",\"facilityId\":\"PROC-PB-001\",\"facilityName\":\"Punjab Honey Processing Unit\",\"batchSplitInfo\":\"Split into 2 x 4kg lots\"}",
+      "current_hash": "3b9513d91d11f0ec8e1d36dcef23ef9c7ed155f5dba6f33780eb6565fefb00a6",
+      "timestamp": "2026-09-04T12:21:42.670Z",
+      "id": 14
+    },
+    {
+      "batch_id": 2,
+      "step": "packaging",
+      "prev_hash": "3b9513d91d11f0ec8e1d36dcef23ef9c7ed155f5dba6f33780eb6565fefb00a6",
+      "data": "{\"batchId\":2,\"step\":\"packaging\",\"packageDate\":\"2026-07-14\",\"jarSize\":\"250g x 32\",\"facility\":\"KVIC Certified Packaging - Ludhiana\",\"nfcSealId\":\"NFC-DE47DBAC6C0225B78D208749\"}",
+      "current_hash": "a619f23335edeafe427c82496a8c6adadfc9ce4f4dcc8fa84ae22659a4e50b15",
+      "timestamp": "2026-09-05T12:21:42.671Z",
+      "id": 15
+    },
+    {
+      "batch_id": 2,
+      "step": "distribution",
+      "prev_hash": "a619f23335edeafe427c82496a8c6adadfc9ce4f4dcc8fa84ae22659a4e50b15",
+      "data": "{\"batchId\":2,\"step\":\"distribution\",\"distributorName\":\"Northern India Honey Logistics\",\"dispatchDate\":\"2026-07-15\",\"destinationMarket\":\"Mumbai, Maharashtra\"}",
+      "current_hash": "6407e711cd0482c2c782c9df9188f7545afbf5e206d840c4ed9d765804a6f8f1",
+      "timestamp": "2026-09-06T12:21:42.672Z",
+      "id": 16
+    },
+    {
+      "batch_id": 2,
+      "step": "retail",
+      "prev_hash": "6407e711cd0482c2c782c9df9188f7545afbf5e206d840c4ed9d765804a6f8f1",
+      "data": "{\"batchId\":2,\"step\":\"retail\",\"outletName\":\"Khadi Gramodyog Store - Mumbai\",\"dateStocked\":\"2026-07-17\",\"shelfPrice\":600}",
+      "current_hash": "59375e5b29f8344b292c5d57e0bc498868cc66a8938fce3fd37f0cd8a183fb85",
+      "timestamp": "2026-09-07T12:21:42.672Z",
+      "id": 17
+    },
+    {
+      "batch_id": 2,
+      "step": "consumer_purchase",
+      "prev_hash": "59375e5b29f8344b292c5d57e0bc498868cc66a8938fce3fd37f0cd8a183fb85",
+      "data": "{\"batchId\":2,\"step\":\"consumer_purchase\",\"orderId\":null,\"buyerName\":null,\"timestamp\":null}",
+      "current_hash": "2809a01040dca3ee9b79e5b5a5e746caf6023344463ac5db70126ebd10c00011",
+      "timestamp": "2026-09-08T12:21:42.673Z",
+      "id": 18
+    },
+    {
+      "batch_id": 3,
+      "step": "harvest",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "data": "{\"batchId\":3,\"step\":\"harvest\",\"beekeeperName\":\"Lakshmi Nair\",\"village\":\"Wayanad\",\"hiveId\":\"HIVE-KL-007\",\"gps\":{\"lat\":11.6854,\"lng\":76.132},\"harvestDate\":\"2026-12-05\",\"floralSource\":\"wildflower\",\"quantityKg\":15,\"photoPath\":\"/uploads/harvest-batch3.jpg\"}",
+      "current_hash": "03ffbe0784e0e1d7525a95cde8d107115a2636a74701baf9a3f0d7f54742edbc",
+      "timestamp": "2026-08-31T12:21:42.673Z",
+      "id": 19
+    },
+    {
+      "batch_id": 3,
+      "step": "collection",
+      "prev_hash": "03ffbe0784e0e1d7525a95cde8d107115a2636a74701baf9a3f0d7f54742edbc",
+      "data": "{\"batchId\":3,\"step\":\"collection\",\"centerName\":\"Wayanad Honey Center\",\"centerId\":\"CC-KL-003\",\"dateReceived\":\"2026-12-06\",\"quantityReceived\":15,\"conditionNotes\":\"Excellent condition, premium wildflower aroma\"}",
+      "current_hash": "387b05f069fc9c104f1e77b512c29082fcf961d9d9626f063b6b9bd1fd21d1ea",
+      "timestamp": "2026-09-01T12:21:42.674Z",
+      "id": 20
+    },
+    {
+      "batch_id": 3,
+      "step": "testing",
+      "prev_hash": "387b05f069fc9c104f1e77b512c29082fcf961d9d9626f063b6b9bd1fd21d1ea",
+      "data": "{\"batchId\":3,\"step\":\"testing\",\"moisture\":18.1,\"sugarRatio\":79.8,\"hmfLevel\":15.2,\"testedByStaffId\":\"LAB-STAFF-012\",\"testDate\":\"2026-12-07\",\"labName\":\"Kerala State Apiculture Lab - Kozhikode\"}",
+      "current_hash": "514d15f7135585aea239124a7e07ac862acc3197dd7d7d288bf8dafdeb3235ea",
+      "timestamp": "2026-09-02T12:21:42.674Z",
+      "id": 21
+    },
+    {
+      "batch_id": 3,
+      "step": "ai_verification",
+      "prev_hash": "514d15f7135585aea239124a7e07ac862acc3197dd7d7d288bf8dafdeb3235ea",
+      "data": "{\"batchId\":3,\"step\":\"ai_verification\",\"riskScore\":20,\"riskBand\":\"VERIFIED_AUTHENTIC\",\"floralMatch\":true,\"timingMatch\":true,\"ndviSupport\":true,\"nirRange\":true,\"explanation\":\"Checks passed with minor NDVI variation for wildflower in December\"}",
+      "current_hash": "a07dbba58e9ed3f243aacdf2c91cd2a07f95757996e4b9826b4f048d6477941e",
+      "timestamp": "2026-09-03T12:21:42.675Z",
+      "id": 22
+    },
+    {
+      "batch_id": 3,
+      "step": "processing",
+      "prev_hash": "a07dbba58e9ed3f243aacdf2c91cd2a07f95757996e4b9826b4f048d6477941e",
+      "data": "{\"batchId\":3,\"step\":\"processing\",\"method\":\"raw\",\"processDate\":\"2026-12-08\",\"facilityId\":\"PROC-KL-002\",\"facilityName\":\"Kerala Organic Honey Processors\",\"batchSplitInfo\":\"Single batch, 15kg drums\"}",
+      "current_hash": "4046853ff14ac6cf588ef36acd6ac74006b36df6105f946c5e943583521b243d",
+      "timestamp": "2026-09-04T12:21:42.676Z",
+      "id": 23
+    },
+    {
+      "batch_id": 3,
+      "step": "packaging",
+      "prev_hash": "4046853ff14ac6cf588ef36acd6ac74006b36df6105f946c5e943583521b243d",
+      "data": "{\"batchId\":3,\"step\":\"packaging\",\"packageDate\":\"2026-12-09\",\"jarSize\":\"500g\",\"facility\":\"KVIC Certified Packaging - Kozhikode\",\"nfcSealId\":\"NFC-E0E2D1CD97A14B4DAFD68BB7\"}",
+      "current_hash": "dfbba989a738101d67bb88e5b3d9650fcd9aeee5d37bd014f9adeee57eb0850a",
+      "timestamp": "2026-09-05T12:21:42.676Z",
+      "id": 24
+    },
+    {
+      "batch_id": 3,
+      "step": "distribution",
+      "prev_hash": "dfbba989a738101d67bb88e5b3d9650fcd9aeee5d37bd014f9adeee57eb0850a",
+      "data": "{\"batchId\":3,\"step\":\"distribution\",\"distributorName\":\"South India Honey Exports\",\"dispatchDate\":\"2026-12-10\",\"destinationMarket\":\"Bangalore, Karnataka\"}",
+      "current_hash": "01a1e9faf20125b1d3cdd04944bd2282afb9946255165ce6c0f82965095827a4",
+      "timestamp": "2026-09-06T12:21:42.677Z",
+      "id": 25
+    },
+    {
+      "batch_id": 3,
+      "step": "retail",
+      "prev_hash": "01a1e9faf20125b1d3cdd04944bd2282afb9946255165ce6c0f82965095827a4",
+      "data": "{\"batchId\":3,\"step\":\"retail\",\"outletName\":\"Organic Store - Bangalore\",\"dateStocked\":\"2026-12-12\",\"shelfPrice\":850}",
+      "current_hash": "f0758975835362078d795bfc7f87aa8e693c2393f28fbd94482729713f0d24ea",
+      "timestamp": "2026-09-07T12:21:42.677Z",
+      "id": 26
+    },
+    {
+      "batch_id": 3,
+      "step": "consumer_purchase",
+      "prev_hash": "f0758975835362078d795bfc7f87aa8e693c2393f28fbd94482729713f0d24ea",
+      "data": "{\"batchId\":3,\"step\":\"consumer_purchase\",\"orderId\":null,\"buyerName\":null,\"timestamp\":null}",
+      "current_hash": "4945b49f79c886354ae1a96089887bba11134b4dd83275ecf926831273e5b84e",
+      "timestamp": "2026-09-08T12:21:42.678Z",
+      "id": 27
+    },
+    {
+      "batch_id": 4,
+      "step": "harvest",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "data": "{\"batchId\":4,\"step\":\"harvest\",\"beekeeperName\":\"Arjun Singh\",\"village\":\"Lucknow\",\"hiveId\":\"HIVE-UP-011\",\"gps\":{\"lat\":26.8467,\"lng\":80.9462},\"harvestDate\":\"2026-08-20\",\"floralSource\":\"mustard\",\"quantityKg\":10,\"photoPath\":\"/uploads/harvest-batch4.jpg\"}",
+      "current_hash": "59760f0e85dd993113dc96d7061258fa049c509fd11788555f921302da3346ed",
+      "timestamp": "2026-09-05T12:21:42.678Z",
+      "id": 28
+    },
+    {
+      "batch_id": 4,
+      "step": "collection",
+      "prev_hash": "59760f0e85dd993113dc96d7061258fa049c509fd11788555f921302da3346ed",
+      "data": "{\"batchId\":4,\"step\":\"collection\",\"centerName\":\"Lucknow Collection Hub\",\"centerId\":\"CC-UP-002\",\"dateReceived\":\"2026-08-21\",\"quantityReceived\":10,\"conditionNotes\":\"Sealed drums, standard condition\"}",
+      "current_hash": "0bd4a95fdcce952571e66d338c8d8ddadb45d09dd849e543a547c17798683f0c",
+      "timestamp": "2026-09-06T12:21:42.679Z",
+      "id": 29
+    },
+    {
+      "batch_id": 4,
+      "step": "testing",
+      "prev_hash": "0bd4a95fdcce952571e66d338c8d8ddadb45d09dd849e543a547c17798683f0c",
+      "data": "{\"batchId\":4,\"step\":\"testing\",\"moisture\":19.5,\"sugarRatio\":78,\"hmfLevel\":18,\"testedByStaffId\":\"LAB-STAFF-015\",\"testDate\":\"2026-08-22\",\"labName\":\"UP State Apiculture Lab - Lucknow\"}",
+      "current_hash": "2e30f9f28ca7f8ed8318438a4d20151e84c5fac65eb53f0585f43a7e891e6de2",
+      "timestamp": "2026-09-07T12:21:42.680Z",
+      "id": 30
+    },
+    {
+      "batch_id": 4,
+      "step": "ai_verification",
+      "prev_hash": "2e30f9f28ca7f8ed8318438a4d20151e84c5fac65eb53f0585f43a7e891e6de2",
+      "data": "{\"batchId\":4,\"step\":\"ai_verification\",\"riskScore\":85,\"riskBand\":\"HIGH_RISK\",\"floralMatch\":false,\"timingMatch\":false,\"ndviSupport\":true,\"nirRange\":true,\"explanation\":\"MISMATCH - mustard not in bloom for Uttar Pradesh in August. Possible mislabeling detected.\"}",
+      "current_hash": "5f329eb806506e1bf42792b8113dfc572f64439ca74143a5ac91d40d0793828e",
+      "timestamp": "2026-09-08T12:21:42.680Z",
+      "id": 31
+    },
+    {
+      "batch_id": 5,
+      "step": "harvest",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "data": "{\"batchId\":5,\"step\":\"harvest\",\"beekeeperName\":\"Arjun Singh\",\"village\":\"Lucknow\",\"hiveId\":\"HIVE-UP-023\",\"gps\":{\"lat\":26.8467,\"lng\":80.9462},\"harvestDate\":\"2026-06-12\",\"floralSource\":\"litchi\",\"quantityKg\":7.5,\"photoPath\":\"/uploads/harvest-batch5.jpg\"}",
+      "current_hash": "94437ce551c1b3daf3a43b09d8a719d0ead76b1574b72981f8eff7e666625446",
+      "timestamp": "2026-09-05T12:21:42.681Z",
+      "id": 32
+    },
+    {
+      "batch_id": 5,
+      "step": "collection",
+      "prev_hash": "94437ce551c1b3daf3a43b09d8a719d0ead76b1574b72981f8eff7e666625446",
+      "data": "{\"batchId\":5,\"step\":\"collection\",\"centerName\":\"Lucknow Collection Hub\",\"centerId\":\"CC-UP-002\",\"dateReceived\":\"2026-06-13\",\"quantityReceived\":7.5,\"conditionNotes\":\"Minor crystallization observed, drums intact\"}",
+      "current_hash": "f0bf0eee689dc562b5313206f065ca1d5dbd67019c859783b73716cf548986dc",
+      "timestamp": "2026-09-06T12:21:42.681Z",
+      "id": 33
+    },
+    {
+      "batch_id": 5,
+      "step": "testing",
+      "prev_hash": "f0bf0eee689dc562b5313206f065ca1d5dbd67019c859783b73716cf548986dc",
+      "data": "{\"batchId\":5,\"step\":\"testing\",\"moisture\":22,\"sugarRatio\":71.5,\"hmfLevel\":45,\"testedByStaffId\":\"LAB-STAFF-015\",\"testDate\":\"2026-06-14\",\"labName\":\"UP State Apiculture Lab - Lucknow\"}",
+      "current_hash": "e010b8ada71a3167126283458bae667c21ef348bc6c0037b0933a6e51c4d0175",
+      "timestamp": "2026-09-07T12:21:42.681Z",
+      "id": 34
+    },
+    {
+      "batch_id": 5,
+      "step": "ai_verification",
+      "prev_hash": "e010b8ada71a3167126283458bae667c21ef348bc6c0037b0933a6e51c4d0175",
+      "data": "{\"batchId\":5,\"step\":\"ai_verification\",\"riskScore\":72,\"riskBand\":\"HIGH_RISK\",\"floralMatch\":true,\"timingMatch\":true,\"ndviSupport\":true,\"nirRange\":false,\"explanation\":\"ADULTERATION SUSPECTED: moisture 22.0% exceeds 20% threshold, HMF 45.0mg/kg exceeds 40mg/kg threshold\"}",
+      "current_hash": "0d52b533309d11e8ea2c520860398cd3edc0834c7fc40746993400475f739a7b",
+      "timestamp": "2026-09-08T12:21:42.682Z",
+      "id": 35
+    },
+    {
+      "batch_id": 6,
+      "step": "harvest",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "data": "{\"batchId\":6,\"step\":\"harvest\",\"beekeeperName\":\"Rajesh Kumar\",\"village\":\"Ludhiana\",\"hiveId\":\"HIVE-PB-055\",\"gps\":{\"lat\":30.901,\"lng\":75.8573},\"harvestDate\":\"2026-10-18\",\"floralSource\":\"wildflower\",\"quantityKg\":9.2,\"photoPath\":\"/uploads/harvest-batch6.jpg\"}",
+      "current_hash": "91d784a68f50be39caf5631c0ad8df8aa4d8c2a3fa4e5a8ec6d392e17eea2773",
+      "timestamp": "2026-08-31T12:21:42.682Z",
+      "id": 36
+    },
+    {
+      "batch_id": 6,
+      "step": "collection",
+      "prev_hash": "91d784a68f50be39caf5631c0ad8df8aa4d8c2a3fa4e5a8ec6d392e17eea2773",
+      "data": "{\"batchId\":6,\"step\":\"collection\",\"centerName\":\"Karnal Collection Center\",\"centerId\":\"CC-HR-001\",\"dateReceived\":\"2026-10-19\",\"quantityReceived\":9.2,\"conditionNotes\":\"Good condition, slight variation in color\"}",
+      "current_hash": "408de4e3ef31f98ec89260fbcefdc51b0cebe6796fe3e1230d15ab89cbe6003e",
+      "timestamp": "2026-09-01T12:21:42.683Z",
+      "id": 37
+    },
+    {
+      "batch_id": 6,
+      "step": "testing",
+      "prev_hash": "408de4e3ef31f98ec89260fbcefdc51b0cebe6796fe3e1230d15ab89cbe6003e",
+      "data": "{\"batchId\":6,\"step\":\"testing\",\"moisture\":19,\"sugarRatio\":80.2,\"hmfLevel\":16.5,\"testedByStaffId\":\"LAB-STAFF-007\",\"testDate\":\"2026-10-20\",\"labName\":\"KVIC Certified Lab - Karnal\"}",
+      "current_hash": "8ac15f5f4e4286cc298ba8bbd54bd914f2dc413c98b48d9f54475c4745fb2702",
+      "timestamp": "2026-09-02T12:21:42.683Z",
+      "id": 38
+    },
+    {
+      "batch_id": 6,
+      "step": "ai_verification",
+      "prev_hash": "8ac15f5f4e4286cc298ba8bbd54bd914f2dc413c98b48d9f54475c4745fb2702",
+      "data": "{\"batchId\":6,\"step\":\"ai_verification\",\"riskScore\":30,\"riskBand\":\"REVIEW_RECOMMENDED\",\"floralMatch\":false,\"timingMatch\":true,\"ndviSupport\":true,\"nirRange\":true,\"explanation\":\"Wildflower not in primary bloom calendar for Punjab in October, but NDVI supports presence\"}",
+      "current_hash": "a1241537ea8fa21bed6a6356ac3c50065220acabfe1f38c45b28f0774e424d44",
+      "timestamp": "2026-09-03T12:21:42.684Z",
+      "id": 39
+    },
+    {
+      "batch_id": 6,
+      "step": "processing",
+      "prev_hash": "a1241537ea8fa21bed6a6356ac3c50065220acabfe1f38c45b28f0774e424d44",
+      "data": "{\"batchId\":6,\"step\":\"processing\",\"method\":\"filtered\",\"processDate\":\"2026-10-21\",\"facilityId\":\"PROC-PB-001\",\"facilityName\":\"Punjab Honey Processing Unit\",\"batchSplitInfo\":\"Single batch\"}",
+      "current_hash": "e35480b03ecd44fcf3565e7733d831a14e41e2f05982b0a3fd5d6fef907e305d",
+      "timestamp": "2026-09-04T12:21:42.684Z",
+      "id": 40
+    },
+    {
+      "batch_id": 6,
+      "step": "packaging",
+      "prev_hash": "e35480b03ecd44fcf3565e7733d831a14e41e2f05982b0a3fd5d6fef907e305d",
+      "data": "{\"batchId\":6,\"step\":\"packaging\",\"packageDate\":\"2026-10-22\",\"jarSize\":\"500g\",\"facility\":\"KVIC Certified Packaging - Ludhiana\",\"nfcSealId\":\"NFC-5E247A260D69F33D345A6107\"}",
+      "current_hash": "3b49052928b2977c8d725da02081fb00282810cb9bf092228e093dc6765667fa",
+      "timestamp": "2026-09-05T12:21:42.685Z",
+      "id": 41
+    },
+    {
+      "batch_id": 6,
+      "step": "distribution",
+      "prev_hash": "3b49052928b2977c8d725da02081fb00282810cb9bf092228e093dc6765667fa",
+      "data": "{\"batchId\":6,\"step\":\"distribution\",\"distributorName\":\"Northern India Honey Logistics\",\"dispatchDate\":\"2026-10-23\",\"destinationMarket\":\"Delhi NCR\"}",
+      "current_hash": "07403030b3debb9cd0bb10e0d255013e2c8accae1e65fe8d19b0283f96cd14ca",
+      "timestamp": "2026-09-06T12:21:42.685Z",
+      "id": 42
+    },
+    {
+      "batch_id": 6,
+      "step": "retail",
+      "prev_hash": "07403030b3debb9cd0bb10e0d255013e2c8accae1e65fe8d19b0283f96cd14ca",
+      "data": "{\"batchId\":6,\"step\":\"retail\",\"outletName\":\"KVIC Megastore - Delhi\",\"dateStocked\":\"2026-10-25\",\"shelfPrice\":650}",
+      "current_hash": "3b33838001acf4fe091ae9b8e0c20c04e60d92f9e5222d08fc36de53ca146be1",
+      "timestamp": "2026-09-07T12:21:42.685Z",
+      "id": 43
+    },
+    {
+      "batch_id": 6,
+      "step": "consumer_purchase",
+      "prev_hash": "3b33838001acf4fe091ae9b8e0c20c04e60d92f9e5222d08fc36de53ca146be1",
+      "data": "{\"batchId\":6,\"step\":\"consumer_purchase\",\"orderId\":null,\"buyerName\":null,\"timestamp\":null}",
+      "current_hash": "3ef383cc103bd4b957c250f03977995c647303e2922f275cc7a47aa5b25e34ed",
+      "timestamp": "2026-09-08T12:21:42.686Z",
+      "id": 44
+    },
+    {
+      "batch_id": 7,
+      "step": "harvest",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "data": "{\"batchId\":7,\"step\":\"harvest\",\"beekeeperId\":7,\"floral_source\":\"mustard\",\"quantity_kg\":25,\"harvest_date\":\"2026-09-09\"}",
+      "current_hash": "33ff75554550702fe3aa6b16e7509a660a9e94d51e79c439920ca202aed4c1c5",
+      "id": 45
+    },
+    {
+      "batch_id": 8,
+      "step": "harvest",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "data": "{\"batchId\":8,\"step\":\"harvest\",\"beekeeperId\":8,\"floral_source\":\"wildflower\",\"quantity_kg\":26,\"harvest_date\":\"2026-09-09\"}",
+      "current_hash": "a0301a10c277331aba6d0cd7b055067a5c46c852846897370250b294714adefc",
+      "id": 46
+    },
+    {
+      "batch_id": 9,
+      "step": "harvest",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "data": "{\"batchId\":9,\"step\":\"harvest\",\"beekeeperId\":9,\"floral_source\":\"wildflower\",\"quantity_kg\":25,\"harvest_date\":\"2026-09-09\"}",
+      "current_hash": "1e7392d5aa0d887ee1f5dc423fc9f9dc0c891bef8c5968e4d43bb8f27e1c5534",
+      "id": 47
+    }
+  ],
+  "hive_sensor_data": [
+    {
+      "beekeeper_id": 1,
+      "day_index": 0,
+      "weight_kg": 22.7,
+      "temperature": 31.2,
+      "humidity": 64.1,
+      "acoustic_score": 68,
+      "recorded_at": "2026-08-11T12:21:42.693Z",
+      "id": 1
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 1,
+      "weight_kg": 21.3,
+      "temperature": 32.8,
+      "humidity": 65,
+      "acoustic_score": 67,
+      "recorded_at": "2026-08-12T12:21:42.694Z",
+      "id": 2
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 2,
+      "weight_kg": 22.2,
+      "temperature": 34.4,
+      "humidity": 59.8,
+      "acoustic_score": 72,
+      "recorded_at": "2026-08-13T12:21:42.695Z",
+      "id": 3
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 3,
+      "weight_kg": 22.6,
+      "temperature": 33.1,
+      "humidity": 64.7,
+      "acoustic_score": 74,
+      "recorded_at": "2026-08-14T12:21:42.696Z",
+      "id": 4
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 4,
+      "weight_kg": 22.3,
+      "temperature": 34.4,
+      "humidity": 63.5,
+      "acoustic_score": 72,
+      "recorded_at": "2026-08-15T12:21:42.697Z",
+      "id": 5
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 5,
+      "weight_kg": 23.4,
+      "temperature": 34,
+      "humidity": 57.5,
+      "acoustic_score": 75,
+      "recorded_at": "2026-08-16T12:21:42.698Z",
+      "id": 6
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 6,
+      "weight_kg": 24,
+      "temperature": 33.2,
+      "humidity": 61.4,
+      "acoustic_score": 76,
+      "recorded_at": "2026-08-17T12:21:42.699Z",
+      "id": 7
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 7,
+      "weight_kg": 24.3,
+      "temperature": 36.1,
+      "humidity": 57.3,
+      "acoustic_score": 73,
+      "recorded_at": "2026-08-18T12:21:42.700Z",
+      "id": 8
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 8,
+      "weight_kg": 22.9,
+      "temperature": 34.5,
+      "humidity": 57.3,
+      "acoustic_score": 73,
+      "recorded_at": "2026-08-19T12:21:42.701Z",
+      "id": 9
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 9,
+      "weight_kg": 23,
+      "temperature": 36.7,
+      "humidity": 56.9,
+      "acoustic_score": 72,
+      "recorded_at": "2026-08-20T12:21:42.702Z",
+      "id": 10
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 10,
+      "weight_kg": 24.2,
+      "temperature": 32.9,
+      "humidity": 55.8,
+      "acoustic_score": 68,
+      "recorded_at": "2026-08-21T12:21:42.704Z",
+      "id": 11
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 11,
+      "weight_kg": 23.5,
+      "temperature": 35.6,
+      "humidity": 55.6,
+      "acoustic_score": 72,
+      "recorded_at": "2026-08-22T12:21:42.704Z",
+      "id": 12
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 12,
+      "weight_kg": 23.6,
+      "temperature": 33.8,
+      "humidity": 50.8,
+      "acoustic_score": 65,
+      "recorded_at": "2026-08-23T12:21:42.705Z",
+      "id": 13
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 13,
+      "weight_kg": 24.4,
+      "temperature": 34.7,
+      "humidity": 51.4,
+      "acoustic_score": 67,
+      "recorded_at": "2026-08-24T12:21:42.706Z",
+      "id": 14
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 14,
+      "weight_kg": 24.7,
+      "temperature": 33.2,
+      "humidity": 49.1,
+      "acoustic_score": 62,
+      "recorded_at": "2026-08-25T12:21:42.707Z",
+      "id": 15
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 15,
+      "weight_kg": 24.6,
+      "temperature": 33.3,
+      "humidity": 50.3,
+      "acoustic_score": 62,
+      "recorded_at": "2026-08-26T12:21:42.708Z",
+      "id": 16
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 16,
+      "weight_kg": 23.2,
+      "temperature": 32.5,
+      "humidity": 47.7,
+      "acoustic_score": 58,
+      "recorded_at": "2026-08-27T12:21:42.708Z",
+      "id": 17
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 17,
+      "weight_kg": 23.7,
+      "temperature": 32.8,
+      "humidity": 50,
+      "acoustic_score": 52,
+      "recorded_at": "2026-08-28T12:21:42.709Z",
+      "id": 18
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 18,
+      "weight_kg": 22.2,
+      "temperature": 30.8,
+      "humidity": 49.9,
+      "acoustic_score": 58,
+      "recorded_at": "2026-08-29T12:21:42.710Z",
+      "id": 19
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 19,
+      "weight_kg": 22.7,
+      "temperature": 28.8,
+      "humidity": 45.1,
+      "acoustic_score": 58,
+      "recorded_at": "2026-08-30T12:21:42.711Z",
+      "id": 20
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 20,
+      "weight_kg": 22.3,
+      "temperature": 30.5,
+      "humidity": 45.3,
+      "acoustic_score": 58,
+      "recorded_at": "2026-08-31T12:21:42.712Z",
+      "id": 21
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 21,
+      "weight_kg": 22.9,
+      "temperature": 27.5,
+      "humidity": 46.2,
+      "acoustic_score": 56,
+      "recorded_at": "2026-09-01T12:21:42.712Z",
+      "id": 22
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 22,
+      "weight_kg": 22,
+      "temperature": 31,
+      "humidity": 49.2,
+      "acoustic_score": 58,
+      "recorded_at": "2026-09-02T12:21:42.713Z",
+      "id": 23
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 23,
+      "weight_kg": 21.3,
+      "temperature": 30.7,
+      "humidity": 50.3,
+      "acoustic_score": 62,
+      "recorded_at": "2026-09-03T12:21:42.714Z",
+      "id": 24
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 24,
+      "weight_kg": 20.9,
+      "temperature": 27.4,
+      "humidity": 48.6,
+      "acoustic_score": 59,
+      "recorded_at": "2026-09-04T12:21:42.715Z",
+      "id": 25
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 25,
+      "weight_kg": 20.2,
+      "temperature": 30.8,
+      "humidity": 52.7,
+      "acoustic_score": 64,
+      "recorded_at": "2026-09-05T12:21:42.715Z",
+      "id": 26
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 26,
+      "weight_kg": 21.9,
+      "temperature": 29.9,
+      "humidity": 54.5,
+      "acoustic_score": 65,
+      "recorded_at": "2026-09-06T12:21:42.716Z",
+      "id": 27
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 27,
+      "weight_kg": 21.6,
+      "temperature": 28.9,
+      "humidity": 52.9,
+      "acoustic_score": 72,
+      "recorded_at": "2026-09-07T12:21:42.717Z",
+      "id": 28
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 28,
+      "weight_kg": 19.9,
+      "temperature": 29.6,
+      "humidity": 56.6,
+      "acoustic_score": 76,
+      "recorded_at": "2026-09-08T12:21:42.717Z",
+      "id": 29
+    },
+    {
+      "beekeeper_id": 1,
+      "day_index": 29,
+      "weight_kg": 20.4,
+      "temperature": 32.1,
+      "humidity": 56.3,
+      "acoustic_score": 75,
+      "recorded_at": "2026-09-09T12:21:42.718Z",
+      "id": 30
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 0,
+      "weight_kg": 17.3,
+      "temperature": 28.8,
+      "humidity": 76.3,
+      "acoustic_score": 69,
+      "recorded_at": "2026-08-11T12:21:42.718Z",
+      "id": 31
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 1,
+      "weight_kg": 19,
+      "temperature": 31.7,
+      "humidity": 77.3,
+      "acoustic_score": 72,
+      "recorded_at": "2026-08-12T12:21:42.719Z",
+      "id": 32
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 2,
+      "weight_kg": 18.1,
+      "temperature": 33,
+      "humidity": 79.8,
+      "acoustic_score": 76,
+      "recorded_at": "2026-08-13T12:21:42.720Z",
+      "id": 33
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 3,
+      "weight_kg": 19.4,
+      "temperature": 33.6,
+      "humidity": 79.9,
+      "acoustic_score": 80,
+      "recorded_at": "2026-08-14T12:21:42.720Z",
+      "id": 34
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 4,
+      "weight_kg": 19,
+      "temperature": 32.5,
+      "humidity": 75.7,
+      "acoustic_score": 75,
+      "recorded_at": "2026-08-15T12:21:42.721Z",
+      "id": 35
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 5,
+      "weight_kg": 18.8,
+      "temperature": 33.5,
+      "humidity": 75.1,
+      "acoustic_score": 76,
+      "recorded_at": "2026-08-16T12:21:42.722Z",
+      "id": 36
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 6,
+      "weight_kg": 20.4,
+      "temperature": 33,
+      "humidity": 71.9,
+      "acoustic_score": 77,
+      "recorded_at": "2026-08-17T12:21:42.723Z",
+      "id": 37
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 7,
+      "weight_kg": 19.1,
+      "temperature": 31.8,
+      "humidity": 75.2,
+      "acoustic_score": 84,
+      "recorded_at": "2026-08-18T12:21:42.724Z",
+      "id": 38
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 8,
+      "weight_kg": 18.8,
+      "temperature": 33.1,
+      "humidity": 72.8,
+      "acoustic_score": 78,
+      "recorded_at": "2026-08-19T12:21:42.724Z",
+      "id": 39
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 9,
+      "weight_kg": 20.6,
+      "temperature": 33.3,
+      "humidity": 70.1,
+      "acoustic_score": 77,
+      "recorded_at": "2026-08-20T12:21:42.725Z",
+      "id": 40
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 10,
+      "weight_kg": 20.9,
+      "temperature": 32.2,
+      "humidity": 67.7,
+      "acoustic_score": 79,
+      "recorded_at": "2026-08-21T12:21:42.726Z",
+      "id": 41
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 11,
+      "weight_kg": 20,
+      "temperature": 32.6,
+      "humidity": 66.9,
+      "acoustic_score": 76,
+      "recorded_at": "2026-08-22T12:21:42.727Z",
+      "id": 42
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 12,
+      "weight_kg": 19.6,
+      "temperature": 30.5,
+      "humidity": 67.7,
+      "acoustic_score": 74,
+      "recorded_at": "2026-08-23T12:21:42.728Z",
+      "id": 43
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 13,
+      "weight_kg": 19.9,
+      "temperature": 32.8,
+      "humidity": 63.6,
+      "acoustic_score": 68,
+      "recorded_at": "2026-08-24T12:21:42.729Z",
+      "id": 44
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 14,
+      "weight_kg": 19.9,
+      "temperature": 32.7,
+      "humidity": 65.6,
+      "acoustic_score": 70,
+      "recorded_at": "2026-08-25T12:21:42.730Z",
+      "id": 45
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 15,
+      "weight_kg": 20.3,
+      "temperature": 30.4,
+      "humidity": 60.8,
+      "acoustic_score": 61,
+      "recorded_at": "2026-08-26T12:21:42.730Z",
+      "id": 46
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 16,
+      "weight_kg": 20.5,
+      "temperature": 29.2,
+      "humidity": 61.3,
+      "acoustic_score": 66,
+      "recorded_at": "2026-08-27T12:21:42.731Z",
+      "id": 47
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 17,
+      "weight_kg": 18.7,
+      "temperature": 27.6,
+      "humidity": 63.6,
+      "acoustic_score": 66,
+      "recorded_at": "2026-08-28T12:21:42.732Z",
+      "id": 48
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 18,
+      "weight_kg": 18.5,
+      "temperature": 27.8,
+      "humidity": 60.5,
+      "acoustic_score": 59,
+      "recorded_at": "2026-08-29T12:21:42.733Z",
+      "id": 49
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 19,
+      "weight_kg": 18.1,
+      "temperature": 28.9,
+      "humidity": 61.2,
+      "acoustic_score": 63,
+      "recorded_at": "2026-08-30T12:21:42.733Z",
+      "id": 50
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 20,
+      "weight_kg": 17.8,
+      "temperature": 28.8,
+      "humidity": 62,
+      "acoustic_score": 63,
+      "recorded_at": "2026-08-31T12:21:42.734Z",
+      "id": 51
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 21,
+      "weight_kg": 18.7,
+      "temperature": 27.5,
+      "humidity": 61.4,
+      "acoustic_score": 57,
+      "recorded_at": "2026-09-01T12:21:42.735Z",
+      "id": 52
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 22,
+      "weight_kg": 17.5,
+      "temperature": 26,
+      "humidity": 65.5,
+      "acoustic_score": 67,
+      "recorded_at": "2026-09-02T12:21:42.736Z",
+      "id": 53
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 23,
+      "weight_kg": 17.7,
+      "temperature": 25.3,
+      "humidity": 60.9,
+      "acoustic_score": 64,
+      "recorded_at": "2026-09-03T12:21:42.736Z",
+      "id": 54
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 24,
+      "weight_kg": 16.6,
+      "temperature": 28.3,
+      "humidity": 62.1,
+      "acoustic_score": 69,
+      "recorded_at": "2026-09-04T12:21:42.737Z",
+      "id": 55
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 25,
+      "weight_kg": 16.3,
+      "temperature": 25.5,
+      "humidity": 68.8,
+      "acoustic_score": 70,
+      "recorded_at": "2026-09-05T12:21:42.738Z",
+      "id": 56
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 26,
+      "weight_kg": 16,
+      "temperature": 27.1,
+      "humidity": 64.5,
+      "acoustic_score": 75,
+      "recorded_at": "2026-09-06T12:21:42.739Z",
+      "id": 57
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 27,
+      "weight_kg": 17.6,
+      "temperature": 26.3,
+      "humidity": 71.2,
+      "acoustic_score": 77,
+      "recorded_at": "2026-09-07T12:21:42.741Z",
+      "id": 58
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 28,
+      "weight_kg": 16.4,
+      "temperature": 29.2,
+      "humidity": 67.5,
+      "acoustic_score": 81,
+      "recorded_at": "2026-09-08T12:21:42.742Z",
+      "id": 59
+    },
+    {
+      "beekeeper_id": 2,
+      "day_index": 29,
+      "weight_kg": 15.4,
+      "temperature": 28.1,
+      "humidity": 71.7,
+      "acoustic_score": 77,
+      "recorded_at": "2026-09-09T12:21:42.744Z",
+      "id": 60
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 0,
+      "weight_kg": 19.5,
+      "temperature": 32.8,
+      "humidity": 68.2,
+      "acoustic_score": 51,
+      "recorded_at": "2026-08-11T12:21:42.745Z",
+      "id": 61
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 1,
+      "weight_kg": 20,
+      "temperature": 35.2,
+      "humidity": 66.2,
+      "acoustic_score": 61,
+      "recorded_at": "2026-08-12T12:21:42.746Z",
+      "id": 62
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 2,
+      "weight_kg": 19.9,
+      "temperature": 34.4,
+      "humidity": 68.9,
+      "acoustic_score": 57,
+      "recorded_at": "2026-08-13T12:21:42.746Z",
+      "id": 63
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 3,
+      "weight_kg": 20.3,
+      "temperature": 36.5,
+      "humidity": 65.7,
+      "acoustic_score": 60,
+      "recorded_at": "2026-08-14T12:21:42.747Z",
+      "id": 64
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 4,
+      "weight_kg": 20.8,
+      "temperature": 37.6,
+      "humidity": 65.8,
+      "acoustic_score": 66,
+      "recorded_at": "2026-08-15T12:21:42.748Z",
+      "id": 65
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 5,
+      "weight_kg": 21.3,
+      "temperature": 34.8,
+      "humidity": 66.6,
+      "acoustic_score": 65,
+      "recorded_at": "2026-08-16T12:21:42.749Z",
+      "id": 66
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 6,
+      "weight_kg": 20.6,
+      "temperature": 37.7,
+      "humidity": 66.6,
+      "acoustic_score": 62,
+      "recorded_at": "2026-08-17T12:21:42.749Z",
+      "id": 67
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 7,
+      "weight_kg": 21.8,
+      "temperature": 38.3,
+      "humidity": 62.2,
+      "acoustic_score": 67,
+      "recorded_at": "2026-08-18T12:21:42.750Z",
+      "id": 68
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 8,
+      "weight_kg": 21.5,
+      "temperature": 35.1,
+      "humidity": 59,
+      "acoustic_score": 64,
+      "recorded_at": "2026-08-19T12:21:42.751Z",
+      "id": 69
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 9,
+      "weight_kg": 21.8,
+      "temperature": 37.1,
+      "humidity": 62,
+      "acoustic_score": 64,
+      "recorded_at": "2026-08-20T12:21:42.751Z",
+      "id": 70
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 10,
+      "weight_kg": 21.9,
+      "temperature": 35.6,
+      "humidity": 60.7,
+      "acoustic_score": 65,
+      "recorded_at": "2026-08-21T12:21:42.752Z",
+      "id": 71
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 11,
+      "weight_kg": 22.2,
+      "temperature": 35.5,
+      "humidity": 60.2,
+      "acoustic_score": 56,
+      "recorded_at": "2026-08-22T12:21:42.753Z",
+      "id": 72
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 12,
+      "weight_kg": 21.9,
+      "temperature": 34.3,
+      "humidity": 58.7,
+      "acoustic_score": 54,
+      "recorded_at": "2026-08-23T12:21:42.754Z",
+      "id": 73
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 13,
+      "weight_kg": 21.6,
+      "temperature": 36.5,
+      "humidity": 56.7,
+      "acoustic_score": 52,
+      "recorded_at": "2026-08-24T12:21:42.755Z",
+      "id": 74
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 14,
+      "weight_kg": 20.9,
+      "temperature": 36.7,
+      "humidity": 56.8,
+      "acoustic_score": 54,
+      "recorded_at": "2026-08-25T12:21:42.756Z",
+      "id": 75
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 15,
+      "weight_kg": 21.1,
+      "temperature": 34.1,
+      "humidity": 52.1,
+      "acoustic_score": 54,
+      "recorded_at": "2026-08-26T12:21:42.757Z",
+      "id": 76
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 16,
+      "weight_kg": 22.4,
+      "temperature": 31.9,
+      "humidity": 51.6,
+      "acoustic_score": 50,
+      "recorded_at": "2026-08-27T12:21:42.757Z",
+      "id": 77
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 17,
+      "weight_kg": 21.2,
+      "temperature": 33.9,
+      "humidity": 53.6,
+      "acoustic_score": 49,
+      "recorded_at": "2026-08-28T12:21:42.758Z",
+      "id": 78
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 18,
+      "weight_kg": 21.8,
+      "temperature": 32.4,
+      "humidity": 50.1,
+      "acoustic_score": 41,
+      "recorded_at": "2026-08-29T12:21:42.759Z",
+      "id": 79
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 19,
+      "weight_kg": 20.9,
+      "temperature": 32.3,
+      "humidity": 54.7,
+      "acoustic_score": 45,
+      "recorded_at": "2026-08-30T12:21:42.759Z",
+      "id": 80
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 20,
+      "weight_kg": 21,
+      "temperature": 30.3,
+      "humidity": 52.8,
+      "acoustic_score": 43,
+      "recorded_at": "2026-08-31T12:21:42.760Z",
+      "id": 81
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 21,
+      "weight_kg": 20.3,
+      "temperature": 30.6,
+      "humidity": 54.3,
+      "acoustic_score": 47,
+      "recorded_at": "2026-09-01T12:21:42.761Z",
+      "id": 82
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 22,
+      "weight_kg": 20.8,
+      "temperature": 32.1,
+      "humidity": 51.1,
+      "acoustic_score": 53,
+      "recorded_at": "2026-09-02T12:21:42.762Z",
+      "id": 83
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 23,
+      "weight_kg": 19,
+      "temperature": 31.4,
+      "humidity": 53.7,
+      "acoustic_score": 53,
+      "recorded_at": "2026-09-03T12:21:42.763Z",
+      "id": 84
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 24,
+      "weight_kg": 19.9,
+      "temperature": 31.1,
+      "humidity": 54.1,
+      "acoustic_score": 52,
+      "recorded_at": "2026-09-04T12:21:42.764Z",
+      "id": 85
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 25,
+      "weight_kg": 18.2,
+      "temperature": 32.1,
+      "humidity": 55.2,
+      "acoustic_score": 56,
+      "recorded_at": "2026-09-05T12:21:42.764Z",
+      "id": 86
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 26,
+      "weight_kg": 18.5,
+      "temperature": 32.5,
+      "humidity": 57.8,
+      "acoustic_score": 55,
+      "recorded_at": "2026-09-06T12:21:42.765Z",
+      "id": 87
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 27,
+      "weight_kg": 19.2,
+      "temperature": 31.5,
+      "humidity": 58.1,
+      "acoustic_score": 56,
+      "recorded_at": "2026-09-07T12:21:42.766Z",
+      "id": 88
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 28,
+      "weight_kg": 18.8,
+      "temperature": 31.3,
+      "humidity": 59.9,
+      "acoustic_score": 63,
+      "recorded_at": "2026-09-08T12:21:42.766Z",
+      "id": 89
+    },
+    {
+      "beekeeper_id": 3,
+      "day_index": 29,
+      "weight_kg": 18.9,
+      "temperature": 33.3,
+      "humidity": 59,
+      "acoustic_score": 65,
+      "recorded_at": "2026-09-09T12:21:42.767Z",
+      "id": 90
+    }
+  ],
+  "disease_logs": [
+    {
+      "beekeeper_id": 1,
+      "detection_type": "image",
+      "result": "Wax Moth Activity Detected — treat hive and inspect frames",
+      "confidence": 70,
+      "raw_filename": "frame-0.jpg",
+      "id": 1
+    },
+    {
+      "beekeeper_id": 8,
+      "detection_type": "image",
+      "result": "Possible Foulbrood Signs — consult apiary officer immediately",
+      "confidence": 72,
+      "raw_filename": "Screenshot 2026-09-09 144139.png",
+      "id": 2
+    },
+    {
+      "beekeeper_id": 7,
+      "detection_type": "image",
+      "result": "Possible Foulbrood Signs — consult apiary officer immediately",
+      "confidence": 72,
+      "raw_filename": "Screenshot 2026-09-09 144139.png",
+      "id": 3
+    },
+    {
+      "beekeeper_id": 1,
+      "detection_type": "image",
+      "result": "Healthy — no disease indicators detected",
+      "confidence": 85,
+      "raw_filename": "frame.jpg",
+      "id": 4
+    },
+    {
+      "beekeeper_id": 1,
+      "detection_type": "image",
+      "result": "Wax Moth Activity Detected — treat hive and inspect frames",
+      "confidence": 91,
+      "raw_filename": "frame.jpg",
+      "id": 5
+    },
+    {
+      "beekeeper_id": 1,
+      "detection_type": "image",
+      "result": "Healthy — no disease indicators detected",
+      "confidence": 85,
+      "raw_filename": "frame.jpg",
+      "id": 6
+    },
+    {
+      "beekeeper_id": 1,
+      "detection_type": "image",
+      "result": "Wax Moth Activity Detected — treat hive and inspect frames",
+      "confidence": 91,
+      "raw_filename": "frame.jpg",
+      "id": 7
+    },
+    {
+      "beekeeper_id": 1,
+      "detection_type": "image",
+      "result": "Healthy — no disease indicators detected",
+      "confidence": 85,
+      "raw_filename": "frame.jpg",
+      "id": 8
+    },
+    {
+      "beekeeper_id": 1,
+      "detection_type": "image",
+      "result": "Wax Moth Activity Detected — treat hive and inspect frames",
+      "confidence": 91,
+      "raw_filename": "frame.jpg",
+      "id": 9
+    },
+    {
+      "beekeeper_id": 8,
+      "detection_type": "image",
+      "result": "Possible Foulbrood Signs — consult apiary officer immediately",
+      "confidence": 72,
+      "raw_filename": "Screenshot 2026-09-09 144139.png",
+      "id": 10
+    },
+    {
+      "beekeeper_id": 1,
+      "detection_type": "image",
+      "result": "Healthy — no disease indicators detected",
+      "confidence": 85,
+      "raw_filename": "frame.jpg",
+      "id": 11
+    },
+    {
+      "beekeeper_id": 1,
+      "detection_type": "image",
+      "result": "Wax Moth Activity Detected — treat hive and inspect frames",
+      "confidence": 91,
+      "raw_filename": "frame.jpg",
+      "id": 12
+    },
+    {
+      "beekeeper_id": 9,
+      "detection_type": "image",
+      "result": "Possible Foulbrood Signs — consult apiary officer immediately",
+      "confidence": 72,
+      "raw_filename": "Screenshot 2026-09-09 144139.png",
+      "id": 13
+    },
+    {
+      "beekeeper_id": 1,
+      "detection_type": "image",
+      "result": "Healthy — no disease indicators detected",
+      "confidence": 85,
+      "raw_filename": "frame.jpg",
+      "id": 14
+    },
+    {
+      "beekeeper_id": 1,
+      "detection_type": "image",
+      "result": "Wax Moth Activity Detected — treat hive and inspect frames",
+      "confidence": 91,
+      "raw_filename": "frame.jpg",
+      "id": 15
+    },
+    {
+      "beekeeper_id": 9,
+      "detection_type": "image",
+      "result": "Possible Foulbrood Signs — consult apiary officer immediately",
+      "confidence": 72,
+      "raw_filename": "Screenshot 2026-09-09 144139.png",
+      "id": 16
+    }
+  ],
+  "orders": [
+    {
+      "batch_id": 1,
+      "buyer_id": 6,
+      "buyer_name": "Anita Desai",
+      "buyer_address": "42 MG Road, Chennai, Tamil Nadu",
+      "buyer_phone": "9876543220",
+      "quantity": 2,
+      "price": 1500,
+      "order_id": "ORD-MTU2IFTW-39BE4719",
+      "order_status": "dispatched",
+      "order_status_detail": "{\"placed\":\"2026-09-05T12:21:42.692Z\",\"packed\":\"2026-09-06T12:21:42.692Z\",\"dispatched\":\"2026-09-08T12:21:42.692Z\",\"delivered\":null}",
+      "created_at": "2026-09-05T12:21:42.692Z",
+      "id": 1
+    }
+  ],
+  "verification_reports": [
+    {
+      "batch_id": 1,
+      "floral_source_match": 1,
+      "timing_match": 1,
+      "ndvi_support": 1,
+      "nir_within_range": 1,
+      "pollen_available": 0,
+      "risk_score": 0,
+      "risk_band": "VERIFIED_AUTHENTIC",
+      "explanation_text": "All cross-verification checks passed for mustard honey from Punjab. Bloom calendar, satellite NDVI, weather timing, and NIR spectral profile are all consistent with an authentic product.",
+      "checks_detail": "{\"floralSourceMatch\":{\"passed\":true,\"expectedSources\":[\"mustard\"],\"detail\":\"mustard is in expected bloom for Punjab in month 3\"},\"ndviSupport\":{\"passed\":true,\"ndvi\":0.65,\"dominantBloom\":\"mustard\",\"description\":\"Mustard harvest beginning, residual floral activity\",\"detail\":\"NDVI 0.65 — vegetation signal supports mustard presence\"},\"timingMatch\":{\"passed\":true,\"inBloomWindow\":true,\"isPeakSeason\":true,\"expectedMonths\":[11,12,1,2,3],\"weather\":{\"temp\":22,\"rainfall\":25,\"humidity\":50},\"detail\":\"mustard is at peak bloom in Punjab during month 3\"},\"nirWithinRange\":{\"passed\":true,\"moisture\":17.2,\"hmf_level\":12.3,\"sugar_ratio\":82.5,\"detail\":\"NIR profile within authentic range: moisture 17.2%, HMF 12.3mg/kg\"},\"pollenAvailable\":{\"passed\":false,\"available\":false,\"detail\":\"Lab microscopy not yet integrated — planned for Phase 2\"}}",
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 1
+    },
+    {
+      "batch_id": 2,
+      "floral_source_match": 1,
+      "timing_match": 1,
+      "ndvi_support": 1,
+      "nir_within_range": 1,
+      "pollen_available": 0,
+      "risk_score": 0,
+      "risk_band": "VERIFIED_AUTHENTIC",
+      "explanation_text": "All cross-verification checks passed for eucalyptus honey from Punjab. Bloom calendar, satellite NDVI, weather timing, and NIR spectral profile are all consistent with an authentic product.",
+      "checks_detail": "{\"floralSourceMatch\":{\"passed\":true,\"expectedSources\":[\"eucalyptus\"],\"detail\":\"eucalyptus is in expected bloom for Punjab in month 7\"},\"ndviSupport\":{\"passed\":true,\"ndvi\":0.55,\"dominantBloom\":\"eucalyptus\",\"description\":\"Eucalyptus plantations active during monsoon\",\"detail\":\"NDVI 0.55 — vegetation signal supports eucalyptus presence\"},\"timingMatch\":{\"passed\":true,\"inBloomWindow\":true,\"isPeakSeason\":true,\"expectedMonths\":[6,7,8,11,12,1],\"weather\":{\"temp\":33,\"rainfall\":220,\"humidity\":75},\"detail\":\"eucalyptus is at peak bloom in Punjab during month 7\"},\"nirWithinRange\":{\"passed\":true,\"moisture\":15.8,\"hmf_level\":9.7,\"sugar_ratio\":85.1,\"detail\":\"NIR profile within authentic range: moisture 15.8%, HMF 9.7mg/kg\"},\"pollenAvailable\":{\"passed\":false,\"available\":false,\"detail\":\"Lab microscopy not yet integrated — planned for Phase 2\"}}",
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 2
+    },
+    {
+      "batch_id": 3,
+      "floral_source_match": 1,
+      "timing_match": 0,
+      "ndvi_support": 1,
+      "nir_within_range": 1,
+      "pollen_available": 0,
+      "risk_score": 20,
+      "risk_band": "VERIFIED_AUTHENTIC",
+      "explanation_text": "Harvest timing is inconsistent with the expected bloom window for wildflower. Recommend manual inspection before certification.",
+      "checks_detail": "{\"floralSourceMatch\":{\"passed\":true,\"expectedSources\":[\"wildflower\"],\"detail\":\"wildflower is in expected bloom for Kerala in month 12\"},\"ndviSupport\":{\"passed\":true,\"ndvi\":0.58,\"dominantBloom\":\"wildflower\",\"description\":\"Winter wildflower patches in hill regions\",\"detail\":\"NDVI 0.58 — vegetation signal supports wildflower presence\"},\"timingMatch\":{\"passed\":false,\"inBloomWindow\":false,\"isPeakSeason\":false,\"expectedMonths\":[4,5,6,7,8,9,10],\"weather\":{\"temp\":27,\"rainfall\":40,\"humidity\":70},\"detail\":\"wildflower is NOT in bloom in Kerala during month 12. Expected: months 4, 5, 6, 7, 8, 9, 10\"},\"nirWithinRange\":{\"passed\":true,\"moisture\":18.1,\"hmf_level\":15.2,\"sugar_ratio\":79.8,\"detail\":\"NIR profile within authentic range: moisture 18.1%, HMF 15.2mg/kg\"},\"pollenAvailable\":{\"passed\":false,\"available\":false,\"detail\":\"Lab microscopy not yet integrated — planned for Phase 2\"}}",
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 3
+    },
+    {
+      "batch_id": 4,
+      "floral_source_match": 0,
+      "timing_match": 0,
+      "ndvi_support": 0,
+      "nir_within_range": 1,
+      "pollen_available": 0,
+      "risk_score": 50,
+      "risk_band": "REVIEW_RECOMMENDED",
+      "explanation_text": "Claimed mustard honey from Uttar Pradesh in month 8, but regional bloom calendar shows this flora is not expected during this period. Satellite vegetation data (NDVI 0.52) shows minimal flowering activity in Uttar Pradesh during month 8. Harvest timing is inconsistent with the expected bloom window for mustard. Recommend manual inspection before certification.",
+      "checks_detail": "{\"floralSourceMatch\":{\"passed\":false,\"expectedSources\":[\"eucalyptus\",\"jamun\"],\"detail\":\"mustard NOT in expected bloom for Uttar Pradesh in month 8. Expected: eucalyptus, jamun\"},\"ndviSupport\":{\"passed\":false,\"ndvi\":0.52,\"dominantBloom\":\"eucalyptus\",\"description\":\"Eucalyptus and jamun activity in eastern UP\",\"detail\":\"NDVI 0.52 — vegetation signal TOO LOW for active mustard bloom (threshold: 0.45)\"},\"timingMatch\":{\"passed\":false,\"inBloomWindow\":false,\"isPeakSeason\":false,\"expectedMonths\":[11,12,1,2,3],\"weather\":{\"temp\":32,\"rainfall\":250,\"humidity\":80},\"detail\":\"mustard is NOT in bloom in Uttar Pradesh during month 8. Expected: months 11, 12, 1, 2, 3\"},\"nirWithinRange\":{\"passed\":true,\"moisture\":19.5,\"hmf_level\":18,\"sugar_ratio\":78,\"detail\":\"NIR profile within authentic range: moisture 19.5%, HMF 18mg/kg\"},\"pollenAvailable\":{\"passed\":false,\"available\":false,\"detail\":\"Lab microscopy not yet integrated — planned for Phase 2\"}}",
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 4
+    },
+    {
+      "batch_id": 5,
+      "floral_source_match": 0,
+      "timing_match": 0,
+      "ndvi_support": 1,
+      "nir_within_range": 0,
+      "pollen_available": 0,
+      "risk_score": 90,
+      "risk_band": "HIGH_RISK",
+      "explanation_text": "Claimed litchi honey from Uttar Pradesh in month 6, but regional bloom calendar shows this flora is not expected during this period. Harvest timing is inconsistent with the expected bloom window for litchi. Spectral analysis shows elevated levels (moisture 22%, HMF 45mg/kg) suggesting possible adulteration. Recommend manual inspection before certification.",
+      "checks_detail": "{\"floralSourceMatch\":{\"passed\":false,\"expectedSources\":[\"wildflower\"],\"detail\":\"litchi NOT in expected bloom for Uttar Pradesh in month 6. Expected: wildflower\"},\"ndviSupport\":{\"passed\":true,\"ndvi\":0.48,\"dominantBloom\":\"wildflower\",\"description\":\"Pre-monsoon dry spell, scattered wildflowers\",\"detail\":\"NDVI 0.48 — vegetation signal supports litchi presence\"},\"timingMatch\":{\"passed\":false,\"inBloomWindow\":false,\"isPeakSeason\":false,\"expectedMonths\":[4,5],\"weather\":{\"temp\":37,\"rainfall\":85,\"humidity\":55},\"detail\":\"litchi is NOT in bloom in Uttar Pradesh during month 6. Expected: months 4, 5\"},\"nirWithinRange\":{\"passed\":false,\"moisture\":22,\"hmf_level\":45,\"sugar_ratio\":71.5,\"detail\":\"NIR ADULTERATION FLAGS: moisture 22% exceeds 20%; HMF 45mg/kg exceeds 40mg/kg\"},\"pollenAvailable\":{\"passed\":false,\"available\":false,\"detail\":\"Lab microscopy not yet integrated — planned for Phase 2\"}}",
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 5
+    },
+    {
+      "batch_id": 6,
+      "floral_source_match": 0,
+      "timing_match": 1,
+      "ndvi_support": 1,
+      "nir_within_range": 1,
+      "pollen_available": 0,
+      "risk_score": 30,
+      "risk_band": "REVIEW_RECOMMENDED",
+      "explanation_text": "Claimed wildflower honey from Punjab in month 10, but regional bloom calendar shows this flora is not expected during this period. Recommend manual inspection before certification.",
+      "checks_detail": "{\"floralSourceMatch\":{\"passed\":false,\"expectedSources\":[\"multiflora\"],\"detail\":\"wildflower NOT in expected bloom for Punjab in month 10. Expected: multiflora\"},\"ndviSupport\":{\"passed\":true,\"ndvi\":0.6,\"dominantBloom\":\"multiflora\",\"description\":\"Autumn multiflora, mustard seedlings emerging\",\"detail\":\"NDVI 0.60 — vegetation signal supports wildflower presence\"},\"timingMatch\":{\"passed\":true,\"inBloomWindow\":true,\"isPeakSeason\":false,\"expectedMonths\":[4,5,6,7,8,9,10],\"weather\":{\"temp\":25,\"rainfall\":15,\"humidity\":55},\"detail\":\"wildflower bloom window is active in Punjab during month 10 (not peak)\"},\"nirWithinRange\":{\"passed\":true,\"moisture\":19,\"hmf_level\":16.5,\"sugar_ratio\":80.2,\"detail\":\"NIR profile within authentic range: moisture 19%, HMF 16.5mg/kg\"},\"pollenAvailable\":{\"passed\":false,\"available\":false,\"detail\":\"Lab microscopy not yet integrated — planned for Phase 2\"}}",
+      "created_at": "2026-09-09T12:21:42.657Z",
+      "id": 6
+    }
+  ],
+  "consumer_scans": [
+    {
+      "consumer_id": 6,
+      "batch_id": 1,
+      "scanned_at": "2026-09-04T12:21:42.691Z",
+      "id": 1
+    },
+    {
+      "consumer_id": 6,
+      "batch_id": 3,
+      "scanned_at": "2026-09-06T12:21:42.692Z",
+      "id": 2
+    }
+  ],
+  "alerts": [
+    {
+      "beekeeper_id": 1,
+      "hive_id": "HIVE-PB-042",
+      "alert_type": "disease_image",
+      "severity": "critical",
+      "message": "Possible Foulbrood detected in Hive #3 — 87% confidence. Please inspect within 24 hours.",
+      "detection_result": "Possible Foulbrood Signs — consult apiary officer immediately (87%)",
+      "status": "acknowledged",
+      "sms_details": "{\"webDelivered\":true,\"smsDelivered\":true,\"smsError\":null,\"simulated\":true,\"smsId\":\"SMS-SEED-C28BF208B8583518\",\"deliveredTo\":\"+91-9876543210\",\"status\":\"delivered (simulated)\"}",
+      "created_at": "2026-09-09T00:21:42.768Z",
+      "id": 1
+    },
+    {
+      "beekeeper_id": 2,
+      "hive_id": "HIVE-KL-007",
+      "alert_type": "iot_risk",
+      "severity": "warning",
+      "message": "IoT Risk: Possible Disease/Stress — humidity 78%, weight declining. Recommend inspection.",
+      "detection_result": "Risk: Possible Disease/Stress — recommend inspection",
+      "status": "acknowledged",
+      "sms_details": "{\"webDelivered\":true,\"smsDelivered\":true,\"smsError\":null,\"simulated\":true,\"smsId\":\"SMS-SEED-FFBCC20AAA5625F9\",\"deliveredTo\":\"+91-9876543211\",\"status\":\"delivered (simulated)\"}",
+      "created_at": "2026-09-08T12:21:42.769Z",
+      "id": 2
+    },
+    {
+      "beekeeper_id": 3,
+      "hive_id": "HIVE-UP-011",
+      "alert_type": "disease_audio",
+      "severity": "critical",
+      "message": "Swarming Precursor Sound Detected in Hive #1 — 91% confidence. Inspect within 48 hours.",
+      "detection_result": "Swarming Precursor Sound Detected — inspect within 48 hours (91%)",
+      "status": "sent",
+      "sms_details": "{\"webDelivered\":true,\"smsDelivered\":true,\"smsError\":null,\"simulated\":true,\"smsId\":\"SMS-SEED-B403411596F334E3\",\"deliveredTo\":\"+91-9876543212\",\"status\":\"delivered (simulated)\"}",
+      "created_at": "2026-09-09T07:33:42.770Z",
+      "id": 3
+    },
+    {
+      "beekeeper_id": 1,
+      "hive_id": "HIVE-PB-055",
+      "alert_type": "disease_audio",
+      "severity": "warning",
+      "message": "Excessive Stress/Agitation Sound detected — possible pest intrusion (Varroa/wax moth). Confidence 78%.",
+      "detection_result": "Excessive Stress/Agitation Sound — possible pest intrusion (Varroa/wax moth) (78%)",
+      "status": "sent",
+      "sms_details": "{\"webDelivered\":true,\"smsDelivered\":true,\"smsError\":null,\"simulated\":true,\"smsId\":\"SMS-SEED-450D11885BAF6564\",\"deliveredTo\":\"+91-9876543210\",\"status\":\"delivered (simulated)\"}",
+      "created_at": "2026-09-07T12:21:42.771Z",
+      "id": 4
+    },
+    {
+      "beekeeper_id": 1,
+      "hive_id": "HIVE-1",
+      "alert_type": "disease_image",
+      "severity": "warning",
+      "message": "Image Detection: Wax Moth Activity Detected — treat hive and inspect frames — 70% confidence. Please inspect your hive and consult an apiary officer if needed.",
+      "detection_result": "Wax Moth Activity Detected — treat hive and inspect frames (70%)",
+      "status": "sent",
+      "sms_details": "{\"webDelivered\":true,\"smsDelivered\":true,\"smsError\":null,\"simulated\":true,\"smsId\":\"SMS-SIM-053EFA7B0614\",\"deliveredTo\":\"9876543210\",\"status\":\"delivered (simulated)\"}",
+      "created_at": "2026-09-09T12:23:51.853Z",
+      "id": 5
+    },
+    {
+      "beekeeper_id": 8,
+      "hive_id": "HIVE-8",
+      "alert_type": "disease_image",
+      "severity": "critical",
+      "message": "Image Detection: Possible Foulbrood Signs — consult apiary officer immediately — 72% confidence. Please inspect your hive and consult an apiary officer if needed.",
+      "detection_result": "Possible Foulbrood Signs — consult apiary officer immediately (72%)",
+      "status": "acknowledged",
+      "sms_details": "{\"webDelivered\":true,\"smsDelivered\":true,\"smsError\":null,\"simulated\":true,\"smsId\":\"SMS-SIM-954694F391CF\",\"deliveredTo\":\"+91-0000000000\",\"status\":\"delivered (simulated)\"}",
+      "created_at": "2026-09-09T12:28:18.155Z",
+      "id": 6
+    },
+    {
+      "beekeeper_id": 7,
+      "hive_id": "HIVE-7",
+      "alert_type": "disease_image",
+      "severity": "critical",
+      "message": "Image Detection: Possible Foulbrood Signs — consult apiary officer immediately — 72% confidence. Please inspect your hive and consult an apiary officer if needed.",
+      "detection_result": "Possible Foulbrood Signs — consult apiary officer immediately (72%)",
+      "status": "sent",
+      "sms_details": "{\"webDelivered\":true,\"smsDelivered\":true,\"smsError\":null,\"simulated\":true,\"smsId\":\"SMS-SIM-93C4F0213605\",\"deliveredTo\":\"6382906526\",\"status\":\"delivered (simulated)\"}",
+      "created_at": "2026-09-09T12:30:03.425Z",
+      "id": 7
+    },
+    {
+      "beekeeper_id": 1,
+      "hive_id": "HIVE-1",
+      "alert_type": "disease_image",
+      "severity": "warning",
+      "message": "Image Detection: Wax Moth Activity Detected — treat hive and inspect frames — 91% confidence. Please inspect your hive and consult an apiary officer if needed.",
+      "detection_result": "Wax Moth Activity Detected — treat hive and inspect frames (91%)",
+      "status": "sent",
+      "sms_details": "{\"webDelivered\":true,\"smsDelivered\":true,\"smsError\":null,\"simulated\":true,\"smsId\":\"SMS-SIM-97D9EF8E3BA6\",\"deliveredTo\":\"9876543210\",\"status\":\"delivered (simulated)\"}",
+      "created_at": "2026-09-09T13:10:51.320Z",
+      "id": 8
+    },
+    {
+      "beekeeper_id": 1,
+      "hive_id": "HIVE-1",
+      "alert_type": "disease_image",
+      "severity": "warning",
+      "message": "Image Detection: Wax Moth Activity Detected — treat hive and inspect frames — 91% confidence. Please inspect your hive and consult an apiary officer if needed.",
+      "detection_result": "Wax Moth Activity Detected — treat hive and inspect frames (91%)",
+      "status": "sent",
+      "sms_details": "{\"webDelivered\":true,\"smsDelivered\":true,\"smsError\":null,\"simulated\":true,\"smsId\":\"SMS-SIM-BB0E0727FEA3\",\"deliveredTo\":\"9876543210\",\"status\":\"delivered (simulated)\"}",
+      "created_at": "2026-09-09T13:19:48.948Z",
+      "id": 9
+    },
+    {
+      "beekeeper_id": 1,
+      "hive_id": "HIVE-1",
+      "alert_type": "disease_image",
+      "severity": "warning",
+      "message": "Image Detection: Wax Moth Activity Detected — treat hive and inspect frames — 91% confidence. Please inspect your hive and consult an apiary officer if needed.",
+      "detection_result": "Wax Moth Activity Detected — treat hive and inspect frames (91%)",
+      "status": "sent",
+      "sms_details": "{\"webDelivered\":true,\"smsDelivered\":true,\"smsError\":null,\"simulated\":true,\"smsId\":\"SMS-SIM-893D4556C5DC\",\"deliveredTo\":\"9876543210\",\"status\":\"delivered (simulated)\"}",
+      "created_at": "2026-09-09T13:20:17.798Z",
+      "id": 10
+    },
+    {
+      "beekeeper_id": 8,
+      "hive_id": "HIVE-8",
+      "alert_type": "disease_image",
+      "severity": "critical",
+      "message": "Image Detection: Possible Foulbrood Signs — consult apiary officer immediately — 72% confidence. Please inspect your hive and consult an apiary officer if needed.",
+      "detection_result": "Possible Foulbrood Signs — consult apiary officer immediately (72%)",
+      "status": "sent",
+      "sms_details": "{\"webDelivered\":true,\"smsDelivered\":true,\"smsError\":null,\"simulated\":true,\"smsId\":\"SMS-SIM-89A98828CBB6\",\"deliveredTo\":\"6382906526\",\"status\":\"delivered (simulated)\"}",
+      "created_at": "2026-09-09T13:24:45.464Z",
+      "id": 11
+    },
+    {
+      "beekeeper_id": 1,
+      "hive_id": "HIVE-1",
+      "alert_type": "disease_image",
+      "severity": "warning",
+      "message": "Image Detection: Wax Moth Activity Detected — treat hive and inspect frames — 91% confidence. Please inspect your hive and consult an apiary officer if needed.",
+      "detection_result": "Wax Moth Activity Detected — treat hive and inspect frames (91%)",
+      "status": "sent",
+      "sms_details": "{\"webDelivered\":true,\"smsDelivered\":true,\"smsError\":null,\"simulated\":true,\"smsId\":\"SMS-SIM-CEA9D085C76E\",\"deliveredTo\":\"9876543210\",\"status\":\"delivered (simulated)\"}",
+      "created_at": "2026-09-09T13:30:26.641Z",
+      "id": 12
+    },
+    {
+      "beekeeper_id": 9,
+      "hive_id": "HIVE-9",
+      "alert_type": "disease_image",
+      "severity": "critical",
+      "message": "Image Detection: Possible Foulbrood Signs — consult apiary officer immediately — 72% confidence. Please inspect your hive and consult an apiary officer if needed.",
+      "detection_result": "Possible Foulbrood Signs — consult apiary officer immediately (72%)",
+      "status": "sent",
+      "sms_details": "{\"webDelivered\":true,\"smsDelivered\":true,\"smsError\":null,\"simulated\":true,\"smsId\":\"SMS-SIM-CE2C5D0001B7\",\"deliveredTo\":\"6382906525\",\"status\":\"delivered (simulated)\"}",
+      "created_at": "2026-09-09T13:35:20.027Z",
+      "id": 13
+    },
+    {
+      "beekeeper_id": 1,
+      "hive_id": "HIVE-1",
+      "alert_type": "disease_image",
+      "severity": "warning",
+      "message": "Image Detection: Wax Moth Activity Detected — treat hive and inspect frames — 91% confidence. Please inspect your hive and consult an apiary officer if needed.",
+      "detection_result": "Wax Moth Activity Detected — treat hive and inspect frames (91%)",
+      "status": "sent",
+      "sms_details": "{\"webDelivered\":true,\"smsDelivered\":true,\"smsError\":null,\"simulated\":true,\"smsId\":\"SMS-SIM-0F16B3D1BB78\",\"deliveredTo\":\"9876543210\",\"status\":\"delivered (simulated)\"}",
+      "created_at": "2026-09-09T13:48:35.948Z",
+      "id": 14
+    },
+    {
+      "beekeeper_id": 9,
+      "hive_id": "HIVE-9",
+      "alert_type": "disease_image",
+      "severity": "critical",
+      "message": "Image Detection: Possible Foulbrood Signs — consult apiary officer immediately — 72% confidence. Please inspect your hive and consult an apiary officer if needed.",
+      "detection_result": "Possible Foulbrood Signs — consult apiary officer immediately (72%)",
+      "status": "sent",
+      "sms_details": "{\"webDelivered\":true,\"smsDelivered\":true,\"smsError\":null,\"simulated\":true,\"smsId\":\"SMS-SIM-29FB3C77BE07\",\"deliveredTo\":\"6382906525\",\"status\":\"delivered (simulated)\"}",
+      "created_at": "2026-09-09T13:49:49.518Z",
+      "id": 15
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+node_modules/
+.vscode/
+server-output.log
+*.log
+.env
+frontend/dist/
+backend/uploads/
